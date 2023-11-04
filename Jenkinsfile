@@ -6,7 +6,7 @@ node{
     }
 
     stage('build images'){
-        app = docker.build('vaibhavd07/first_repo')
+        app = docker.build("vaibhavd07/first_repo")
     }
 
     stage('push image'){
